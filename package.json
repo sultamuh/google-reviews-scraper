@@ -13,9 +13,9 @@
     "url": "https://github.com/sultamuh/google-reviews-scraper.git"
   },
   "bugs": {
-    "url": "https://github.com/sultamuh/google-reviews-scraper.git/issues"
+    "url": "https://github.com/sultamuh/google-reviews-scraper/issues"
   },
-  "homepage": "https://github.com/sultamuh/google-reviews-scraper.git#README",
+  "homepage": "https://github.com/sultamuh/google-reviews-scraper",
   "keywords": [
     "puppeteer",
     "web-scraping",
