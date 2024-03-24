@@ -13,7 +13,7 @@ Before running the script, ensure you have the following dependencies installed:
 1. Clone this repository to your local machine using the following command:
    `git clone https://github.com/sultamuh/google-reviews-scraper.git`
 2. Navigate to the project directory:
-   `cd google-reviews-scraper`
+   `cd google-reviews-scraper-main`
 3. Install the required npm packages by running:
    `npm install`
 
