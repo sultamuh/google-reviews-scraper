@@ -116,54 +116,8 @@ const scrollAndLoadReviews = async (page, totalReviews) => {
   }
 };
 
-const extractReviewData = () => {
-  try {
-    const nameSelector = document.querySelectorAll('.d4r55');
-    const starsSelector = document.querySelectorAll('.kvMYJc');
-    const reviewDateSelector = document.querySelectorAll('.rsqaWe');
-    const reviewDetailSelector = document.querySelectorAll('.MyEned > .wiI7pd');
-
-    const maxLength = Math.max(
-      nameSelector.length,
-      starsSelector.length,
-      reviewDateSelector.length,
-      reviewDetailSelector.length,
-    );
-
-    let reviewData = {};
-
-    for (let i = 0; i < maxLength; i++) {
-      const name = nameSelector[i] ? nameSelector[i].textContent.trim() : '';
-      const stars = starsSelector[i]
-        ? starsSelector[i].getAttribute('aria-label')
-        : '';
-      const date = reviewDateSelector[i]
-        ? reviewDateSelector[i].textContent.trim()
-        : '';
-      const review = reviewDetailSelector[i]
-        ? reviewDetailSelector[i].textContent.trim()
-        : '';
-      const reviewKey = `review${i + 1}`;
-
-      reviewData[reviewKey] = { name, stars, date, review };
-    }
-
-    return reviewData;
-  } catch (error) {
-    throw new Error('Error extracting review data: ', error);
-  }
-};
-
 module.exports = {
   initBrowser,
   getTotalReviews,
   scrollAndLoadReviews,
-  extractReviewData,
-};
-
-module.exports = {
-  initBrowser,
-  getTotalReviews,
-  scrollAndLoadReviews,
-  extractReviewData,
 };
