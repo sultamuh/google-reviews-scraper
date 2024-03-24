@@ -41,7 +41,7 @@ To scrape reviews for a business on Google Maps, follow these steps:
    Replace `"business name"` with the name of the business whose reviews you want to scrape. Make sure to enclose the business name in double quotes if it contains spaces.
 
 2. **Wait for Completion**:
-   The script will start scraping reviews for the specified business. It will log progress information to the console and create an output file named `output.json` containing the scraped review data.
+   The script will start scraping reviews for the specified business. It will log progress information to the console and create an output file named `output_business_name.json` containing the scraped review data.
 
 3. **Review Output**:
    Once the scraping process is complete, you can find the scraped review data in the `output_business_name.json` file. Additionally, logs are stored in `info.log` and `errors.log` files for reference.
