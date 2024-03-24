@@ -1,0 +1,23 @@
+# Dependency directories
+node_modules/
+
+# Logs
+*.log
+
+# Output files
+output*.json
+
+# Environment variables file
+.env
+
+# macOS
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# npm debug log
+npm-debug.log
+
+# yarn logs
+yarn-error.log

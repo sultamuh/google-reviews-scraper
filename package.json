@@ -1,0 +1,45 @@
+{
+  "name": "google-reviews-scraper",
+  "version": "1.0.0",
+  "description": "A simple node.js web scraper utilizing Puppeteer for extracting Google Reviews.",
+  "scripts": {
+    "start": "echo Usage: node scrapeReviews.js \"business name\"  && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "Talha Sultan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sultamuh/google-reviews-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sultamuh/google-reviews-scraper.git/issues"
+  },
+  "homepage": "https://github.com/sultamuh/google-reviews-scraper.git#README",
+  "keywords": [
+    "puppeteer",
+    "web-scraping",
+    "google-reviews",
+    "scraper",
+    "node.js",
+    "javascript"
+  ],
+  "dependencies": {
+    "puppeteer": "^22.6.0",
+    "winston": "^3.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "contributors": [
+    {
+      "name": "Talha Sultan",
+      "email": "sultamuh@gmail.com",
+      "url": "https://github.com/sultamuh"
+    }
+  ],
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
